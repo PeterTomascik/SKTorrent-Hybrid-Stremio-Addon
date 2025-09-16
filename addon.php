@@ -6,8 +6,8 @@
 // I. KONFIGURÁCIA A NASTAVENIA
 // -----------------------------------------------------------------------------
 
-const SKT_UID = $_ENV['SKT_UID'] ?? 'greed';
-const SKT_PASS = $_ENV['SKT_PASS'] ?? 'kolopolo';
+const SKT_UID = $_ENV['SKT_UID'] ?? '';
+const SKT_PASS = $_ENV['SKT_PASS'] ?? '';
 const ADDON_API_KEY = $_ENV['ADDON_API_KEY'] ?? '';
 const STREAM_MODE = $_ENV['STREAM_MODE'] ?? 'BOTH';
 const SKT_BASE_URL = $_ENV['BASE_URL'] ?? 'https://sktorrent.eu';
